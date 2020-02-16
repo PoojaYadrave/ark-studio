@@ -1,0 +1,193 @@
+/*User story 1*/
+.transparent_nav{
+
+}
+.nav_bar{
+  background-color: rgba(100, 97, 97, 0.7);
+  position:fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 1;
+
+}
+#nav_list{
+  float: right;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(136, 3, 136);
+}
+a:hover{
+  color: chartreuse;
+}
+.logo{
+  height: 48px;
+  width: 48px;
+  padding: 6px 0 5px 10%;
+}
+#nav_item_1,#nav_item_2,#nav_item_3,#nav_item_4{
+  float: left;
+  padding: 0 35px;
+
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+}
+#back-image{
+  position: absolute;
+  height: 850px;
+  width: 100%;
+  z-index: -1;
+}
+/*----------------second nav-----------*/
+.cta{
+  margin-top: 790px;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+
+
+}
+a:hover{
+  color:rgb(42, 177, 187);
+}
+#cta_text{
+  float: left;
+  color: white;
+  padding-left: 10%;
+  align-self: hover;
+
+}
+#cta_link{
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-----------------------------User Story 3:-----------------------*/
+.services{
+  position:absolute;
+  margin-top: 850px;
+  width: 100%;
+
+
+}
+.services-wrapper-head{
+ text-align: center;
+  padding-top: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sw-li{
+  display: inline;
+  float: left;
+  padding: 80px 7%;
+  text-align: center;
+}
+.li-image{
+  width: 85px;
+  height: 85px;
+  padding: 30px 35%;
+}
+.li-text{
+  text-align:center;
+}
+/*-----------------------User Story 5-------------------------*/
+.recent_work{
+  display: block;
+  position: absolute;
+  margin-top: 1500px;
+  width: 100%;
+  height: 400px;
+
+
+
+}
+.recent-work-image{
+  float: left;
+  display: flex;
+  width: 20%;
+  justify-content:space around;
+}
+recent-work-image:hover{
+  height: 450px;
+}
+
+/*-------------------------User Story 5--------------------*/
+.testimonials{
+  display: block;
+  position: absolute;
+  margin-top: 1900px;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+.test-li{
+  padding: 100px 9%;
+}
+.img{
+  height: 75px;
+  width: 75px;
+  border-radius: 1;
+}
+/*------------------------------User Story 6-------------------------------*/
+.footer_widget{
+  position: absolute;
+  display: block;
+  height: 300px;
+  width: 1300px;
+  margin-top: 2500px;
+  background-color:	rgb(114, 107, 107);
+  padding-left: 250px;
+  color: rgb(236, 230, 236);
+}
+.footer{
+  float: left;
+  text-align: left;
+  margin: 50px 0;
+  height: 250px;
+  width:20%;
+}
+.loc-img{
+  height: 20px;
+  width: 20px;
+  float: left;
+  padding: 0 2%;
+}
+.footer_widget:hover .loc-img{
+  color: darkmagenta;
+  opacity: 1;
+}
+#comp_list{
+  margin: 0;
+  padding: 0;
+}
+#comp_list a{
+  color:white;
+}
+#comp_list li{
+  padding: 5px 0;
+}
+#sup_list{
+  margin: 0;
+  padding: 0;
+}
+#sup_list a{
+  color:white;
+}
+#sup_list li{
+  padding: 5px 0;
+}
+.rights{
+  position: absolute;
+  display: block;
+  margin-top: 2730px;
+  color:rgb(230, 166, 210);
+  padding-left: 40%;
+}
